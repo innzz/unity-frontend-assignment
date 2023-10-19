@@ -17,7 +17,7 @@ const SearchComponent = ({ onSearch, onError, onLoading }) => {
         } finally {
             onLoading(false);
         }
-      }, 3000); // 3-second timeout
+      }, 2000); // 2-second timeout
 
       return () => clearTimeout(timer); // Clear timeout on component unmount or when query changes
     }  else {
