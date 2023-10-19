@@ -17,4 +17,12 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
+To Build the Application
+Run this command:
+```bash
+npm run build
+npm run start
+```
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the build result.
+
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
